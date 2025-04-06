@@ -1,13 +1,61 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="./src/reset.css" />
+    <link rel="stylesheet" href="./src/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
+    <div id="card" class="card">
+      <div>
+        <img src="/card_image.png" alt="Card Image" />
+      </div>
+
+      <div id="content" class="content">
+        <div class="product-groups">Starter Kits / Hand Soap</div>
+        <h1 class="title">Hand Soap Duo</h1>
+
+        <div class="rating">
+          <img class="rating-image" src="/rating_image.png" alt="Rating image" />
+          <spa class="rating-number">4.8</span>
+          <span class="rating-review">35,592 Review</span>
+        </div>
+
+        <div class="quantity-title">Refill Quantity</div>
+        <div class="quantity-buttons">
+          <button class="quantity-button-item checked">5 Tablets</button>
+          <button class="quantity-button-item">10 Tablets</button>
+        </div>
+
+        <div class="color-title"><span>Color</span><span>Slate</span></div>
+        <div class="color-buttons">
+          <button class="color-button-item checked">Slate</button>
+          <button class="color-button-item">Original</button>
+        </div>
+
+        <div class="scent-title">Scent</div>
+        <div class="scent-buttons">
+          <button class="scent-buton-item checked">Botanical Variety</button>
+          <button class="scent-buton-item">Classic Variety</button>
+          <button class="scent-buton-item">Fragrance-Free</button>
+        </div>
+        <div class="scent-description">
+          Fragrance-Free - A classic scent-free clean
+        </div>
+
+        <div class="price-container">
+          <div class="price-left">Today's Total</div>
+          <div class="price-right">US$18</div>
+        </div>
+
+        <button class="main-button">Add To Cart</button>
+        <div class="terms">
+          100-Day Money Back Guarantee | Free Shipping over $50
+        </div>
+      </div>
+    </div>
   </body>
 </html>
